@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+
+    font-family: 'Kavoon', cursive;
+}
+
+.contenedor {
+    background-color: white;
+    width: 50%;
+    padding: 20px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    width: 100%;
+    text-align: center; 
+}
+
+input[type="range"] {
+    display: inline-block;
+    width: 75%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.valor {
+    display: inline-block;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #0075ff;
+    color: white;
+    padding: 10px 30px;
+    letter-spacing: 0.8px;
+    border-radius: 3px;
+}
+
+#titulo { 
+    background: linear-gradient(red, green, blue);
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 70px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 7px 0;
+    border: solid 3px white;
+    border-radius: 3px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2); /* Qué es? */
+}

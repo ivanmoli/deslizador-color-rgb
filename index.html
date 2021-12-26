@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deslizador Color RGB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Deslizador Color RGB</h1>
+    </div>
+    <div class="contenedor">
+        <div class="contenido">
+            R<input type="range" min="0" max="255" id="rojo" value="0"><span id="valor-r">0</span>
+        </div>
+        <div class="contenido">
+            G<input type="range" min="0" max="255" id="verde" value="0"><span id="valor-v">0</span>
+        </div>
+        <div class="contenido">
+            B<input type="range" min="0" max="255" id="azul" value="0"><span id="valor-a">0</span>
+        </div>
+        <span class="valor">rgb(0, 0, 0)</span>
+    </div>
+</body>
+</html>
